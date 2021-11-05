@@ -57,7 +57,7 @@ then
   exit 1;
 fi
 
-# Force teh password to be changed on the first login
+# Force the password to be changed on the first login
 passwd -e ${USER_NAME}
 
 echo "Username : ${USER_NAME}"
